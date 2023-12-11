@@ -1,0 +1,265 @@
+/* 전체페이지 */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkslateblue;
+}
+
+.wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.material-symbols-outlined{
+    font-size: 10rem;
+}
+
+.lg_text{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sm_text{
+    font-size: 1.5rem;
+}
+
+.button1{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #ED0090;
+    border: 1px solid blanchedalmond;
+    border-radius: 20px;
+    padding: 5px;
+    min-height:30px; 
+    min-width: 50px;
+}
+
+.button1:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.button2{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #FDCC03;
+    border: 1px solid blanchedalmond;
+    border-radius: 20px;
+    padding: 5px;
+    min-height:30px; 
+    min-width: 50px;
+}
+
+.button2:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.button3{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #00A652;
+    border: 1px solid blanchedalmond;
+    border-radius: 20px;
+    padding: 5px;
+    min-height:30px; 
+    min-width: 50px;
+}
+
+.button3:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.button4{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #F37020;
+    border: 1px solid blanchedalmond;
+    border-radius: 20px;
+    padding: 5px;
+    min-height:30px; 
+    min-width: 50px;
+}
+
+.button4:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.button5{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #F5A0B3;
+    border: 1px solid blanchedalmond;
+    border-radius: 20px;
+    padding: 5px;
+    min-height:30px; 
+    min-width: 50px;
+}
+
+.button5:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.button6{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #EF1841;
+    border: 1px solid blanchedalmond;
+    border-radius: 20px;
+    padding: 5px;
+    min-height:30px; 
+    min-width: 50px;
+}
+
+.button6:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.button7{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #1724A7;
+    border: 1px solid blanchedalmond;
+    border-radius: 20px;
+    padding: 5px;
+    min-height:30px; 
+    min-width: 50px;
+}
+
+.button7:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.button8{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #B510B5;
+    border: 1px solid blanchedalmond;
+    border-radius: 20px;
+    padding: 5px;
+    min-height:30px; 
+    min-width: 50px;
+}
+
+.button8:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.button9{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #7B0134;
+    border: 1px solid blanchedalmond;
+    border-radius: 20px;
+    padding: 5px;
+    min-height:30px; 
+    min-width: 50px;
+}
+
+.button9:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.button10{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #F6917D;
+    border: 1px solid blanchedalmond;
+    border-radius: 20px;
+    padding: 5px;
+    min-height:30px; 
+    min-width: 50px;
+}
+
+.button10:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.button11{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #37BB9D;
+    border: 1px solid blanchedalmond;
+    border-radius: 20px;
+    padding: 5px;
+    min-height:30px; 
+    min-width: 50px;
+}
+
+.button11:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.button12{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #48464A;
+    border: 1px solid blanchedalmond;
+    border-radius: 20px;
+    padding: 5px;
+    min-height:30px; 
+    min-width: 50px;
+}
+
+.button12:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.closebutton{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#dynamic{
+    position: relative;
+    display:inline-block;
+}
+
+#dynamic::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    width: 4px;
+    height: 100%;
+    background-color: white;
+}
+
+#dynamic.active::after{
+    display: none;
+}
